@@ -10,7 +10,7 @@
 
 ## 安装
 
-`npm install @uedc/dynamic-new-url-plugin -D`
+`pnpm add webpack-plugin-dynamic-new-url -D`
 
 ## 使用方式
 
