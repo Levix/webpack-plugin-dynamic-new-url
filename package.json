@@ -10,11 +10,12 @@
     },
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
     "files": [
         "dist"
     ],
     "scripts": {
-        "build": "tsup src/index.js --format cjs,esm",
+        "build": "tsup",
         "prepare": "husky",
         "release-major": "standard-version -t webpack-plugin-dynamic-new-url@ --release-as major && git push --follow-tags origin main && npm publish",
         "release-minor": "standard-version -t webpack-plugin-dynamic-new-url@ --release-as minor && git push --follow-tags origin main && npm publish",
@@ -30,6 +31,7 @@
     "license": "MIT",
     "devDependencies": {
         "@types/estree": "^1.0.8",
+        "@types/node": "^22.15.33",
         "husky": "^9.1.7",
         "lint-staged": "^16.1.2",
         "prettier": "^3.6.0",
