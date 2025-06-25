@@ -1,0 +1,49 @@
+{
+    "name": "dynamic-new-url-plugin",
+    "version": "0.1.0",
+    "description": "dynamic new URL plugin",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        }
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/index.js --format cjs,esm",
+        "prepare": "husky",
+        "release-major": "standard-version -t dynamic-new-url-plugin@ --release-as major && git push --follow-tags origin master && npm publish",
+        "release-minor": "standard-version -t dynamic-new-url-plugin@ --release-as minor && git push --follow-tags origin master && npm publish",
+        "release-patch": "standard-version -t dynamic-new-url-plugin@ --release-as patch && git push --follow-tags origin master && npm publish"
+    },
+    "keywords": [
+        "webpack",
+        "plugin",
+        "webpack5",
+        "dynamic-new-url"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/estree": "^1.0.8",
+        "husky": "^9.1.7",
+        "lint-staged": "^16.1.2",
+        "prettier": "^3.6.0",
+        "standard-version": "^9.5.0",
+        "tsup": "^8.4.0",
+        "typescript": "^5.8.3",
+        "webpack": "5"
+    },
+    "peerDependencies": {
+        "webpack": "5"
+    },
+    "lint-staged": {
+        "**/*.{js,ts,vue,jsx,tsx}": [
+            "prettier --write"
+        ]
+    }
+}
