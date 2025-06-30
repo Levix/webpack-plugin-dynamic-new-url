@@ -19,7 +19,7 @@
 Add the plugin to your webpack.config.js:
 
 ```js
-const WebpackDynamicURLPlugin = require('@uedc/dynamic-new-url-plugin');
+const WebpackDynamicURLPlugin = require('webpack-plugin-dynamic-new-url');
 
 module.exports = {
   // ... other configurations
