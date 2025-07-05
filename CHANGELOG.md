@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/Levix/webpack-plugin-dynamic-new-url/compare/webpack-plugin-dynamic-new-url@1.0.3...webpack-plugin-dynamic-new-url@1.0.4) (2025-07-05)
+
 ### [1.0.3](https://github.com/Levix/webpack-plugin-dynamic-new-url/compare/webpack-plugin-dynamic-new-url@1.0.2...webpack-plugin-dynamic-new-url@1.0.3) (2025-07-03)
 
 ### [1.0.2](https://github.com/Levix/webpack-plugin-dynamic-new-url/compare/webpack-plugin-dynamic-new-url@1.0.1...webpack-plugin-dynamic-new-url@1.0.2) (2025-06-25)
