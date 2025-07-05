@@ -14,6 +14,13 @@
     "files": [
         "dist"
     ],
+    "funding": "https://github.com/sponsors/Levix",
+    "homepage": "https://github.com/Levix/webpack-plugin-dynamic-new-url#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Levix/webpack-plugin-dynamic-new-url.git"
+    },
+    "bugs": "https://github.com/Levix/webpack-plugin-dynamic-new-url/issues",
     "scripts": {
         "build": "tsup",
         "prepare": "husky",
